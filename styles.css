@@ -1,0 +1,84 @@
+/* 
+font-family: 'Merriweather', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Sacramento', cursive; 
+#E4F9F5
+#40514E
+#66BFBF
+#11999E
+*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #40514e;
+}
+
+header {
+  background-color: #e4f9f5;
+  text-align: center;
+  position: relative;
+}
+
+.title {
+  color: #66bfbf;
+  font-size: 6em;
+  font-family: "Sacramento", cursive;
+  font-weight: 700;
+  padding-top: 100px;
+}
+.desc {
+  color: #66bfbf;
+  font-size: 3em;
+  font-family: "Montserrat", sans-serif;
+  margin: 40px auto;
+}
+
+.cloud-1 {
+  margin: 40px auto;
+  position: absolute;
+  right: 15%;
+}
+.cloud-2 {
+  margin: 20px auto;
+  position: absolute;
+  left: 15%;
+}
+
+.intro,
+.skills,
+.ending {
+  text-align: center;
+}
+
+.intro img {
+  margin: 40px auto 0;
+}
+
+.intro-heading {
+  color: #66bfbf;
+  font-size: 3em;
+  font-family: "Montserrat", sans-serif;
+  margin: 40px auto;
+}
+
+.intro-desc {
+  width: 40%;
+  margin: 40px auto;
+  font-family: "Merriweather", serif;
+}
+
+hr {
+  width: 4%;
+  margin: 100px auto;
+  border: 6px dotted #e4f9f5;
+  border-bottom: none;
+}
+
+footer {
+  background-color: #66bfbf;
+  text-align: center;
+}
